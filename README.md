@@ -1,5 +1,5 @@
 # Resident Interaction Automater
-Selenium script to automate filling out Resident Interactions Qualtrics form for Resident Assistants at Georgia Tech
+Selenium script to automate filling out Resident Interactions Qualtrics form for Resident Assistants at Georgia Tech<br>
 **Please** read the entire README up to running the program. It contains instructions on how to set up and use the program.
 - only works for Woodruff -- both North and South
 - interactionautomater.py is the program you will run from the terminal (GUI coming soon maybe?)

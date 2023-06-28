@@ -1,5 +1,5 @@
 # Resident Interaction Automater
-**Please** read the entire README. It contains instructions on how to set up and use the program.
+**Please** read the entire README up to running the program. It contains instructions on how to set up and use the program.
 - only works for Woodruff -- both North and South
 - interactionautomater.py is the program you will run from the terminal (GUI coming soon maybe?)
 - roster.xlsx is the excel sheet you will use to put all the needed information (resident names, room numbers, your name, etc)
@@ -58,6 +58,7 @@ python3 interactionAutomater.py
 ```
 - the program will create a new window. You don't have to stay on the window, but you can't switch to another desktop or the program will stop running
 - the terminal will have records of the inputs, you can use it to make sure it's on the right track, and if the program stops running, you can look at the last completed resident, and set the cell (1, 25) to that row minus one. (keep in mind that that number **plus one** is the row that it will start at)
-
+## Technologies
+- Selenium, Python
 ## To Do
 - [ ] Create GUI

@@ -59,5 +59,5 @@ python3 interactionAutomater.py
 - the program will create a new window. You don't have to stay on the window, but you can't switch to another desktop or the program will stop running
 - the terminal will have records of the inputs, you can use it to make sure it's on the right track, and if the program stops running, you can look at the last completed resident, and set the cell (1, 25) to that row minus one. (keep in mind that that number **plus one** is the row that it will start at)
 
-  ## To Do
-  - [ ] Create GUI
+## To Do
+- [ ] Create GUI

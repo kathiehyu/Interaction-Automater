@@ -1,4 +1,7 @@
 from selenium import webdriver
+
+from webdriver_manager.chrome import ChromeDriverManager
+
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
@@ -15,8 +18,10 @@ import xlrd2 as xlrd
 
 halfMonth = 0
 
+driver = webdriver.Chrome(ChromeDriverManager().install())
+
 def main():
-	
+
 	completed = 0
 
 	# access spreadsheet
@@ -31,8 +36,7 @@ def main():
 
 	# create webdriver, access browser
 	try:
-		driver = webdriver.Chrome()
-		driver.get("https://gatech.co1.qualtrics.com/jfe/form/SV_1KSYHuch7lUC6pw")
+		driver.get("https://gatech.co1.qualtrics.com/jfe/form/SV_0cU2PJmoSJBvj7g")
 		driver.implicitly_wait(100)
 	except:
 		print("Unable to open browser/link. You must have Google " +

@@ -20,13 +20,13 @@ Before using this program at all, there are a couple of technologies you should 
 
 ### Common Errors on Mac
 
-1. After installing python, you may get the error <span style="color: #E03E3E;">zsh: command not found: python</span>. To fix this, run this command:
+1. After installing python, you may get the error ```zsh: command not found: python```. To fix this, run this command:
     ```
     echo "alias python=/usr/bin/python3" >> ~/.zshrc
     ```
     Restart your terminal, and it should work
 
-2. After installing pip, you may get the error <span style="color: #E03E3E;">zsh: command not found: pip</span> when trying to run ```pip install pipenv```. To fix this, try running this instead:
+2. After installing pip, you may get the error ```zsh: command not found: pip``` when trying to run ```pip install pipenv```. To fix this, try running this instead:
     ```
     pip3 install pipenv
     ```

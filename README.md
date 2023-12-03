@@ -4,6 +4,34 @@ Selenium script to automate filling out Resident Interactions Qualtrics form for
 - only works for Woodruff -- both North and South
 - interactionautomater.py is the program you will run from the terminal (GUI coming soon maybe?)
 - roster.xlsx is the excel sheet you will use to put all the needed information (resident names, room numbers, your name, etc)
+
+## Before you run the program . . .
+Before using this program at all, there are a couple of technologies you should install
+- Git 
+    - [Installation instructions for Mac & Windows](https://www.atlassian.com/git/tutorials/install-git)
+
+- Python
+    - [Installation instructions for Mac Windows](https://kinsta.com/knowledgebase/install-python/#mac)
+- Pip
+    - Installation instructions for:
+        - [Mac](https://www.geeksforgeeks.org/how-to-install-pip-in-macos/)
+        - [Windows](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/)
+
+
+### Common Errors on Mac
+
+1. After installing python, you may get the error ```zsh: command not found: python```. To fix this, run this command:
+    ```
+    echo "alias python=/usr/bin/python3" >> ~/.zshrc
+    ```
+    Restart your terminal, and it should work
+
+2. After installing pip, you may get the error ```zsh: command not found: pip``` when trying to run ```pip install pipenv```. To fix this, try running this instead:
+    ```
+    pip3 install pipenv
+    ```
+    Your computer may recognize ```pip3``` as a command instead of ```pip```, so give it a shot.
+
 ## Setting up and getting to know roster.xlsx
 (row, column)
 - enter your name in cell (1, 1)
